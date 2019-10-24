@@ -1,14 +1,20 @@
-$primary-color: red;
-
-.topnav {
-    background-color: aqua;
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
+    background-color: gray;
 } 
 
-.topnav a {
-    float: left;
-    color: brown;
+li a{
+    display: block;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px; 
     text-decoration: none;
+    float: right;
+}
+
+li a:hover {
+    background-color: gray;
 }
