@@ -1,25 +1,43 @@
 h1{
-    padding: 200px 40px;
-    color: white;
-    vertical-align: middle;
-
-}
-
-h2 {
-    padding: 100px 20px;
-    color: white;
-    margin-top: 100px;
-    padding-bottom: inherit;
+    padding: 20px;
+    padding-top: 100px;
+    padding-bottom: 0;
+    padding-left: 0;
+    color: black;
+    text-align: left;
+    font-size: 70px;
+    margin: 0;
 }
 
 p {
-    color: whitesmoke;
-    text-indent: 50px;
-} 
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
-h3 {
-    padding: 100px 20px;
-    color: white;
-    margin-top: 150px;
-    padding-bottom: inherit;
 }
+
+@keyframes animate {
+    0% {
+        background-position: -500%;
+    }
+    100% {
+        background-position: 500%;
+    }
+}
+
+.container {
+    background-color: lightsalmon;
+    
+}
+
+
+
+
